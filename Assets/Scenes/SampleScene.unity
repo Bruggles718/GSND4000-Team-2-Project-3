@@ -176,9 +176,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'buy Shop
+  m_text: 'Buy Shop (+200)
 
-    (1600$)'
+    Price: 1600$'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 92411262904d4994594d0092f622c7b5, type: 2}
   m_sharedMaterial: {fileID: -6916719184508035781, guid: 92411262904d4994594d0092f622c7b5, type: 2}
@@ -467,9 +467,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'buy worker
+  m_text: 'Buy worker (+20)
 
-    (100$)'
+    Price: 100$'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 92411262904d4994594d0092f622c7b5, type: 2}
   m_sharedMaterial: {fileID: -6916719184508035781, guid: 92411262904d4994594d0092f622c7b5, type: 2}
@@ -600,7 +600,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 6de7ef76a2d9a224a828ff7670378a7a, type: 2}
+    - {fileID: 11400000, guid: 1ce41c98b069af84bada1461007360f6, type: 2}
 --- !u!114 &251120294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,10 +615,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"timeToIncrease","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"money","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"amountGainedOnIncrease","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Enemy
+      Money","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Enemy_amountGainedOnIncrease","value":{"$content":60.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyMoneyDisplayText","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 261627940}
 --- !u!212 &251120295
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -731,7 +734,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 50
+  m_text: 100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 92411262904d4994594d0092f622c7b5, type: 2}
   m_sharedMaterial: {fileID: -6916719184508035781, guid: 92411262904d4994594d0092f622c7b5, type: 2}
@@ -878,13 +881,11 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"timeToIncrease","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"money","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"amountGainedOnIncrease","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"amountGainedOnIncrease","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerMoneyDisplayText","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyMoneyDisplayText","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1658465214}
-    - {fileID: 261627940}
 --- !u!212 &296012054
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1471,9 +1472,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'buy Factory
+  m_text: 'Buy Factory (+60)
 
-    (200$)'
+    Price: 200$'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 92411262904d4994594d0092f622c7b5, type: 2}
   m_sharedMaterial: {fileID: -6916719184508035781, guid: 92411262904d4994594d0092f622c7b5, type: 2}
@@ -1702,7 +1703,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'enemy''s
 
-    money'
+    money:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 92411262904d4994594d0092f622c7b5, type: 2}
   m_sharedMaterial: {fileID: -6916719184508035781, guid: 92411262904d4994594d0092f622c7b5, type: 2}
@@ -2159,8 +2160,8 @@ RectTransform:
   m_LocalScale: {x: 0.014814815, y: 0.014814815, z: 0.014814815}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 646715169}
   - {fileID: 228488954}
+  - {fileID: 646715169}
   - {fileID: 217008201}
   m_Father: {fileID: 1836244111}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2270,7 +2271,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 50
+  m_text: 100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 92411262904d4994594d0092f622c7b5, type: 2}
   m_sharedMaterial: {fileID: -6916719184508035781, guid: 92411262904d4994594d0092f622c7b5, type: 2}
@@ -2408,6 +2409,9 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Upgrade1_Price","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Upgrade2_Price","value":{"$content":200.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Upgrade3_Price","value":{"$content":1600.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Upgrade1_MoneyGainRate","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Upgrade2_MoneyGainRate","value":{"$content":60.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Upgrade3_MoneyGainRate","value":{"$content":200.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 217008202}
@@ -2423,7 +2427,7 @@ Transform:
   m_GameObject: {fileID: 1836244108}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -362.22186, y: -200.78987, z: -6072.3853}
+  m_LocalPosition: {x: -120, y: -200.78987, z: -6072.3853}
   m_LocalScale: {x: 67.5, y: 67.5, z: 67.5}
   m_ConstrainProportionsScale: 0
   m_Children:
